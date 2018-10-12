@@ -1,4 +1,8 @@
-# Bluelake automation script examples
+# Bluelake scripting & automation examples
 
-The `components` directory contains example scripts for individual components of the C-Trap.
-Example workflow automation scripts can be found in the `workflow` directory.
+This repository contains examples of Python scripts and IPython Notebooks for automating Bluelake workflows:
+
+* Under `scripts/components`, you will find example scripts that document each of the components of the C-Trap.
+* Under `scripts/workflow`, there are a number of sample automation scripts.
+* `notebooks` contains sample IPython Notebook files that can used for Bluelake's _Export to Notebook_ feature.
+
