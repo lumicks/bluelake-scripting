@@ -1,5 +1,5 @@
 """Automated bead catching -- 2 beads"""
-from bluelake import stage, fluidics, pause, Trap
+from bluelake import stage, fluidics, pause, timeline, Trap
 
 trap1 = Trap("1", "XY")
 trap2 = Trap("2", "XY")
