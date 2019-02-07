@@ -15,6 +15,6 @@ print(fluidics.pressure())
 fluidics.increase_pressure()
 fluidics.decrease_pressure()
 
-while fluidics.pressure() < 1:  # bar
+while fluidics.pressure < 1:  # bar
     fluidics.increase_pressure()
     pause(1)  # seconds to pause -- important because pressure changes are slow
