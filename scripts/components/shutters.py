@@ -1,7 +1,4 @@
-from bluelake import Trap
-
-trap1 = Trap("1", "XY")
-trap2 = Trap("2", "XY")
+from bluelake import trap1, trap2
 
 trap1.clear()
 trap2.clear()

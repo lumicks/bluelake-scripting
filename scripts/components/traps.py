@@ -1,12 +1,4 @@
-from bluelake import Trap, pause, reset_force
-
-trap1 = Trap("1", "XY")
-
-# Other possibilities:
-trap2 = Trap("2", "XY")
-trap12xy = Trap("1+2", "XY")  # only xy movement
-trap12z = Trap("1+2", "Z")  # only z movement
-nanostage = Trap("Stage", "XYZ")  # full xyz movement
+from bluelake import trap1, trap2, trap12xy, trap12z, nanostage, pause, reset_force
 
 # absolute movement
 trap1.move_to(x=4, y=1)  # [um] matches the position in the UI

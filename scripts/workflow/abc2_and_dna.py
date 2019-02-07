@@ -1,8 +1,6 @@
 """Catch beads and then fish for DNA"""
-from bluelake import Trap, stage, fluidics, pause, timeline, reset_force
+from bluelake import trap1, trap2, stage, fluidics, pause, timeline, reset_force
 
-trap1 = Trap("1", "XY")
-trap2 = Trap("2", "XY")
 match_score1 = timeline["Tracking Match Score"]["Bead 1"]
 match_score2 = timeline["Tracking Match Score"]["Bead 2"]
 

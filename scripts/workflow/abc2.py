@@ -1,8 +1,6 @@
 """Automated bead catching -- 2 beads"""
-from bluelake import stage, fluidics, pause, timeline, Trap
+from bluelake import stage, fluidics, pause, timeline, trap1, trap2
 
-trap1 = Trap("1", "XY")
-trap2 = Trap("2", "XY")
 target_traps = [trap1, trap2]
 
 match_score1 = timeline["Tracking Match Score"]["Bead 1"]
