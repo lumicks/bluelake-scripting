@@ -9,7 +9,7 @@ fluidics.open(1, 2)
 fluidics.close(1, 2)
 
 # Read the current pressure value
-print(fluidics.pressure())
+print(fluidics.pressure)
 
 # Pressure control does the same thing as the UI (not really ideal)
 fluidics.increase_pressure()

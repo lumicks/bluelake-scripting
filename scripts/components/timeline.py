@@ -14,7 +14,7 @@ force_value = force_channel.latest_value
 t0 = timeline.current_time
 
 # Do something
-time.sleep(0.01) # seconds
+time.sleep(1) # seconds
 
 t1 = timeline.current_time
 
@@ -24,6 +24,6 @@ timestamps = force_channel[t0:t1].timestamps
 print(force_data)
 
 # Add a marker to the timeline GUI
-timeline.mark_begin()
-time.sleep(1) # seconds
+timeline.mark_begin("marker name")
+time.sleep(1)  # seconds
 timeline.mark_end()
